@@ -49,13 +49,13 @@ body{
     height:45px;
     border-radius: 25px;
     border:#f7f3f3 1px solid;
-    box-shadow: 2px 1px 1px #faf9f9;
+    box-shadow: 2px 1px 1px #e0a3a3;
+    background-color: #f7f3f3;
     padding:0px;
 }
 .search-icon{
     height:16px;
-    background-color: aliceblue;
-    color: white;
+    
 }
 .search-button{
     background-color: black;
