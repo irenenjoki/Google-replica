@@ -1,47 +1,65 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="index.css">
+<html>
+    <head>
+        <title>Google</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="icon" href="src/favicon.png" type="image/png" sizes="16x16">
+    </head>
+    <body>
+        <div id="header">
+            <div class="left-links" style="float:left;">
+                <ul>
+                    <li><a href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a></li>
+                    <li><a href="https://store.google.com/US?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a></li>
+                </ul> 
+            </div>
+            <div class="right-links" style="float:right;">
+                <ul>
+                    <li><a href="https://policies.google.com/privacy?fg=1">Gmail</a></li>
+                    <li><a href="https://policies.google.com/terms?fg=1">Images</a></li> 
+                    <li><a href="https://www.google.com.tr/intl/tr/about/products?tab=wh"><img id="ninedots-icon" src="src/9-dots.png"/></a></li>
+                    <li><a href="https://www.google.com.tr/intl/tr/about/products?tab=wh"><img id="profile-icon" src="src/profile.png"></a></li> 
+                </ul>
+            </div>
+            <div style="clear:both;"></div>
+        </div>
 
-</head>
-<body>
-    <table class = "calculator" >
-        <tr>
-        <td colspan = "10"> <input class = "display-box" type = "text" id = "result" disabled /> </td>
-         <!--clearScreen() function clear all the values --&gt;-->
-        <td> <input class = "button" type = "button" value = "C" onclick = "clearScreen()" style = "background-color: #fb0066;" /> </td>
-        </tr>
-        <tr>
-        <!--display() function display the value of clicked button --&gt;-->
-        <td> <input class = "button" type = "button" value = "1" onclick = "display('1')" /> </td>
-        <td> <input class = "button" type = "button" value = "2" onclick = "display('2')" /> </td>
-        <td> <input class = "button" type = "button" value = "3" onclick = "display('3')" /> </td>
-        <td> <input class = "button" type = "button" value = "/" onclick = "display('/')" /> </td>
-        </tr>
-        <tr>
-        <td> <input class = "button" type = "button" value = "4" onclick = "display('4')" /> </td>
-        <td> <input class = "button" type = "button" value = "5" onclick = "display('5')" /> </td>
-        <td> <input class = "button" type = "button" value = "6" onclick = "display('6')" /> </td>
-        <td> <input class = "button" type = "button" value = "-" onclick = "display('-')" /> </td>
-        </tr>
-        <tr>
-        <td> <input class = "button" type = "button" value = "7" onclick = "display('7')" /> </td>
-        <td> <input class = "button" type = "button" value = "8" onclick = "display('8')" /> </td>
-        <td> <input class = "button" type = "button" value = "9" onclick = "display('9')" /> </td>
-        <td> <input class = "button" type = "button" value = "+" onclick = "display('+')" /> </td>
-        </tr>
-        <tr>
-        <td> <input class = "button" type = "button" value = "." onclick = "display('.')" /> </td>
-        <td> <input class = "button" type = "button" value = "0" onclick = "display('0')" /> </td>
-        <!-- calculate() function evaluate the mathematical expression --&gt;-->
-        <td> <input class = "button" type = "button" value = "=" onclick = "calculate()" style = "background-color: #fb0066;" /> </td>
-        <td> <input class = "button" type = "button" value = "*" onclick = "display('*')" /> </td>
-        </tr>
-        </table>
-       <script type="text/javascript" src="index.js"></script> 
-</body>
+ <div style="clear:both;"></div>
+        <div id="content">
+            <form method="get">
+            <ul>
+                <li><a href="https://www.google.com" target="_blank" id="logo"><img src="src/logo.png"></a></li>
+                <li>
+                    <div id="serachbox-cover">
+                        <img class="search-icon" src="src/search.png">
+                        <input type="textbox" style="border:0px; width:90%; height:100%; font-size: 16px;"/>
+                        <img class="search-icon" src="src/mic-icon.png">
+                    </div>
+                    
+                </li>
+                <li>
+                    <button class="search-button" type="submit">Google Search</button>
+                    <button class="search-button" type="submit">IRENE </button>
+                </li>
+            </ul>
+            </form>
+        </div>
+        <div style="clear:both;"></div>
+        <div id="footer">
+                <div class="left-links" style="float:left;">
+                    <ul>
+                        <li><a href="https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a></li>
+                        <li><a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Business</a></li>
+                        <li><a href="https://google.com/search/howsearchworks/?fg=1">How Search works</a></li>
+                    </ul>
+                </div>
+                <div class="right-links" style="float:right;">
+                    <ul>
+                        <li><a href="https://policies.google.com/privacy?fg=1">Privicy</a></li>
+                        <li><a href="https://policies.google.com/terms?fg=1">Terms</a></li>
+                        <li><a href="https://www.google.com/preferences?hl=tr">Settings</a></li>
+                    </ul>
+                </div>
+                <div style="clear:both;"></div>
+            </div>
+    </body>
 </html>

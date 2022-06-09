@@ -1,0 +1,110 @@
+html{
+    width:100%;
+    margin:0px;
+    padding:0px;
+    font-family: arial,sans-serif;
+    font-size:13px;
+    background-color: black;
+    background-image: url('https://www.jonesaroundtheworld.com/wp-content/uploads/2020/03/caption-for-watching-the-sunset.jpg');
+    background-position-x: center;
+    background-size: cover;
+}
+body{
+    margin:0px;
+    padding:0px;
+}
+#header{
+    width:100%;
+    text-align: right;
+}
+#WhatsApp-icon
+{
+  padding-top: 130px;
+}
+#profile-icon{
+    width:25px;
+    height:25px;
+    border-radius: 25px;
+}
+#ninedots-icon{
+    color:#eef2f7;
+    width:20px;
+    height:20px;
+}
+#content{
+    width:100%;
+    margin-top: auto;
+    margin-bottom: 0;
+    text-align: center;
+}
+#logo{
+    padding-top: 130px;
+}
+#serachbox-cover{
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom:20px;
+    width:550px;
+    height:45px;
+    border-radius: 25px;
+    border:#f7f3f3 1px solid;
+    box-shadow: 2px 1px 1px #faf9f9;
+    padding:0px;
+}
+.search-icon{
+    height:16px;
+    background-color: aliceblue;
+    color: white;
+}
+.search-button{
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 4px;
+    color: #121213;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    color: white;
+
+}
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #0f0f0f;
+    border-top:#0e0d0d 1px solid;
+  }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #header li {
+    float: left;
+  }
+  #footer li {
+    float: left;
+  }
+  
+  li a {
+    display: inline-block;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    color:#e7ebf0;
+  }
+  
+  li a:hover {
+    text-decoration: underline;
+  }
